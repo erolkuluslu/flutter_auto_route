@@ -1,0 +1,22 @@
+name: flutter_routes
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_route: ^6.4.0  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  auto_route_generator: ^6.2.0
+
+flutter:
+  uses-material-design: true
